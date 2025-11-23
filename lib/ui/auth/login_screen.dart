@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'signup_screen.dart';
 import 'auth_card.dart';
 import 'package:go_router/go_router.dart';
 

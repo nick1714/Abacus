@@ -71,7 +71,7 @@ class _CategoryFormState extends State<CategoryForm> {
         ),
         prefixIcon: Icon(Icons.label_outline_rounded, color: colorScheme.onSurfaceVariant),
         filled: true,
-        fillColor: colorScheme.surfaceContainer ?? colorScheme.surface,
+        fillColor: colorScheme.surfaceContainer,
       ),
       validator: (value) {
         if (value == null || value.trim().isEmpty) {
@@ -99,7 +99,7 @@ class _CategoryFormState extends State<CategoryForm> {
           width: double.infinity,
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
-            color: colorScheme.surfaceContainer ?? colorScheme.surface,
+            color: colorScheme.surfaceContainer,
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(
@@ -165,7 +165,7 @@ class _CategoryFormState extends State<CategoryForm> {
         Container(
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
-            color: colorScheme.surfaceContainer ?? colorScheme.surface,
+            color: colorScheme.surfaceContainer,
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(
@@ -219,7 +219,7 @@ class _CategoryFormState extends State<CategoryForm> {
   Widget _buildPreviewCard(ColorScheme colorScheme) {
     return Card(
       elevation: 0,
-      color: colorScheme.surfaceContainer ?? colorScheme.surface,
+      color: colorScheme.surfaceContainer,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
         side: BorderSide(color: colorScheme.outlineVariant),

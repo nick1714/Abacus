@@ -5,7 +5,6 @@ import '/ui/categories/categories_manager.dart';
 import '/ui/savings_goals/savings_goals_block.dart';
 import '/ui/notifications/notifications_manager.dart';
 import '/ui/notifications/notifications_bottom_sheet.dart';
-import '/ui/bottom_nav_bar_screen.dart';
 import 'home_summary_cards.dart';
 import 'monthly_report_cards.dart';
 import 'recent_transactions_list.dart';

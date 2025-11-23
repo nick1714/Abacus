@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 enum ColorSelection {
+  white('Trắng ngà', Color.fromRGBO(248, 249, 253, 1)),
   deepPurple('Tím đậm', Colors.deepPurple),
   purple('Tím', Colors.purple),
   indigo('Chàm', Colors.indigo),
@@ -13,12 +14,8 @@ enum ColorSelection {
   pink('Hồng', Colors.pink),
   red('Đỏ', Colors.red);
 
-  const ColorSelection(
-    this.label,
-    this.color,
-  );
+  const ColorSelection(this.label, this.color);
 
   final String label;
   final Color color;
 }
-

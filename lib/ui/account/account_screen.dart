@@ -61,7 +61,6 @@ class AccountScreen extends StatelessWidget {
 
   Widget _buildHeader(BuildContext context, Account account) {
     final colorScheme = Theme.of(context).colorScheme;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Container(
       decoration: BoxDecoration(

@@ -23,7 +23,7 @@ class CategoryItem extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 10), // Changed from 12 to 10 to match TransactionItem
       decoration: BoxDecoration(
-        color: colorScheme.surfaceContainer ?? colorScheme.surface,
+        color: colorScheme.surfaceContainer,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(

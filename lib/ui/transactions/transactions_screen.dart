@@ -222,7 +222,7 @@ class TransactionsScreen extends StatelessWidget {
       margin: const EdgeInsets.only(top: 16, bottom: 12),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
-        color: colorScheme.surfaceContainer ?? colorScheme.surface,
+        color: colorScheme.surfaceContainer ,
         borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(

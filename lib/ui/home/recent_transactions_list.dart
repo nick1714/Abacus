@@ -83,7 +83,7 @@ class RecentTransactionsList extends StatelessWidget {
         return Container(
           margin: const EdgeInsets.only(bottom: 12),
           decoration: BoxDecoration(
-            color: colorScheme.surfaceContainer ?? colorScheme.surface,
+            color: colorScheme.surfaceContainer,
             borderRadius: BorderRadius.circular(12),
             boxShadow: [
               BoxShadow(
