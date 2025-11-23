@@ -91,7 +91,7 @@ class AuthService {
       final authData =
           await _pb.collection('users').authWithPassword(email, password);
 
-      final account = _mapRecordToAccount(authData.record!);
+      final account = _mapRecordToAccount(authData.record);
       onAuthChange?.call(account);
       return account;
     } catch (error) {
