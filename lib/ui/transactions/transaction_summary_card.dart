@@ -17,13 +17,12 @@ class TransactionSummaryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Container(
       margin: const EdgeInsets.all(16),
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: colorScheme.surfaceContainer ?? colorScheme.surface,
+        color: colorScheme.surfaceContainer,
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
