@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '/ui/auth/login_screen.dart';
-import '/ui/categories/categories_screen.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
