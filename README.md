@@ -42,8 +42,8 @@ flutter doctor
 ### 1. Clone the repository
 
 ```powershell
-git clone <your-repository-url>
-cd D:\File_Nick\Workspace\Abacus
+git clone https://github.com/nick1714/Abacus.git
+cd \..\Abacus
 ```
 
 ### 2. Install dependencies
